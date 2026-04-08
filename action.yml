@@ -1,11 +1,11 @@
-name: 'AIknowledge Notify'
-description: 'A simple GitHub Action to print a message'
+name: 'Edu Knowlege Notify'
+description: 'Notification action for edu-knowlege repository'
 author: 'mswnlz'
 inputs:
   message:
     description: 'The message to print'
     required: false
-    default: 'Hello from AIknowledge Action!'
+    default: 'Hello from Edu Knowlege Action!'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'index.js'
